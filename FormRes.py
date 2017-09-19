@@ -1,8 +1,8 @@
 from math import sqrt
 
-a = float(input("Argumento a: "))
-b = float(input("Argumento b: "))
-c = float(input("Argumento c: "))
+a = float(input("Argument a: "))
+b = float(input("Argument b: "))
+c = float(input("Argument c: "))
 
 
 delta = b ** 2 - 4 * a * c
@@ -17,4 +17,4 @@ else:
     x_2 = ((-b) - sqrt(delta)) / (2 * a)
     print(("x = %s ou x = %s") % (x_1, x_2))
 
-input("Aperta 'enter' para sair.")
+input("Press 'enter' to exit.")
