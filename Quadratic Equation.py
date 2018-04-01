@@ -11,7 +11,7 @@ if delta == 0:
     x = (-b) / (2 * a)
     print('x = {0}'.format(x))
 elif delta < 0:
-    print('Não existe uma raiz real.')
+    print('There is no real root.')
 else:
     x_1 = ((-b) + sqrt(delta)) / (2 * a)
     x_2 = ((-b) - sqrt(delta)) / (2 * a)
